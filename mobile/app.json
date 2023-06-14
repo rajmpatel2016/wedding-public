@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "WedLinksBeta",
+    "slug": "wedding",
+    "icon": "./assets/icon.png",
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    },
+    "owner": "",
+    "ios": {
+      "buildNumber": "9",
+      "bundleIdentifier": "",
+      "requireFullScreen": true
+    },
+    "plugins": [
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "PORTRAIT"
+        }
+      ]
+    ]
+  }
+}
